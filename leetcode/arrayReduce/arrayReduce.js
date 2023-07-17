@@ -1,3 +1,4 @@
+/* 
 let reduceFunctionBeta = function (nums, fn, init) {
   let accumulator = init;
   for (let i = 0; i < nums.length; i++) {
@@ -11,6 +12,7 @@ let reduceFunctionBeta = function (nums, fn, init) {
   }
   return accumulator;
 };
+*/
 
 let reduceFunction = function (nums, fn, init) {
   let accumulator = init;
@@ -20,7 +22,7 @@ let reduceFunction = function (nums, fn, init) {
   return accumulator;
 };
 
-console.log(
+console.debug(
     reduceFunction(
       [1, 2, 3, 4],
       function sumFunction(accum, curr) {
