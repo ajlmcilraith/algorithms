@@ -11,3 +11,15 @@ test("Function returns the correct string length.", () => {
 test("Function returns the correct string length.", () => {
   expect(findStringfunction("pwwkew")).toEqual(3)
 });
+
+test("Function returns the correct string length.", () => {
+  expect(findStringfunction("abhdefbbadreitugh")).toEqual(10)
+});
+
+test("Function returns the correct string length, problem case.", () => {
+  expect(findStringfunction("dvdf")).toEqual(3)
+})
+
+test("Function returns the correct string length, problem case.", () => {
+  expect(findStringfunction("pwwkew")).toEqual(3)
+})
